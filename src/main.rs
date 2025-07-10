@@ -1,3 +1,4 @@
+
 use auth::{with_auth, Role};
 use warp::reply::Reply;
 use error::Error::*;
@@ -8,7 +9,7 @@ use std::{hash::Hash, sync::Arc};
 use warp::{reject, reply, Filter, Rejection, Reply};
 
 mod auth;
-mod errro;
+mod error;
 
 type Result<T> = std::result::Result<T, error::Error>;
 type WebResult<T> = std::result::Result<T, Rejection>;
