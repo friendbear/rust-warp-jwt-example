@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 chrono = "0.4.38"
 error = "0.1.9"
-jsonwebtoken = "9.3.0"
+jsonwebtoken = "10.3.0"
 serde = "1.0"
 serde_json = "1.0"
 thiserror = "1.0.61"
